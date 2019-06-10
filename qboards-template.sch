@@ -1,22 +1,19 @@
 EESchema Schematic File Version 4
+LIBS:qboards-template-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
+Title "BRD-REF"
 Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Rev "1"
+Comp "QBoards"
+Comment1 "Description of the board"
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 7400 7500 0    62   ~ 12
-QBoard Template [BRD_REF]
-Text Notes 7100 6700 0    50   ~ 0
-Description of the board
 $Bitmap
 Pos 10850 6850
 Scale 1.000000
