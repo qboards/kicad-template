@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:qboards-template-cache
+LIBS:bb-soic-ssop-16-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -200,4 +200,192 @@ C0 74 C1 FD C2 2C 09 26 ED 2C E0 B7 8A C6 C6 C6 19 06 83 21 74 A2 EC F9 09 30 C5
 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
+$Comp
+L Connector:Conn_01x08_Male J1
+U 1 1 5DA1B593
+P 4350 1650
+F 0 "J1" H 4458 2131 50  0000 C CNN
+F 1 "Conn_01x08_Male" H 4458 2040 50  0000 C CNN
+F 2 "qboards_connectors:PinHeader_1x08_P2.54mm_Vertical" H 4350 1650 50  0001 C CNN
+F 3 "~" H 4350 1650 50  0001 C CNN
+	1    4350 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x08_Male J2
+U 1 1 5DA1BEAE
+P 7350 1750
+F 0 "J2" H 7322 1632 50  0000 R CNN
+F 1 "Conn_01x08_Male" H 7322 1723 50  0000 R CNN
+F 2 "qboards_connectors:PinHeader_1x08_P2.54mm_Vertical" H 7350 1750 50  0001 C CNN
+F 3 "~" H 7350 1750 50  0001 C CNN
+	1    7350 1750
+	-1   0    0    1   
+$EndComp
+$Comp
+L qboards-ic:IC-16 U1
+U 1 1 5DA28275
+P 5850 1250
+F 0 "U1" H 5850 1375 50  0000 C CNN
+F 1 "IC-16" H 5850 1284 50  0000 C CNN
+F 2 "qboards_ic:SOIC-16" H 5850 1250 50  0001 C CNN
+F 3 "" H 5850 1250 50  0001 C CNN
+	1    5850 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 1350 6250 1350
+Wire Wire Line
+	6150 1450 6350 1450
+Wire Wire Line
+	6150 1550 6450 1550
+Wire Wire Line
+	6150 1650 6550 1650
+Wire Wire Line
+	6150 1750 6650 1750
+Wire Wire Line
+	6150 1850 6750 1850
+Wire Wire Line
+	6150 1950 6850 1950
+Wire Wire Line
+	4550 2050 4750 2050
+Wire Wire Line
+	4550 1950 4850 1950
+Wire Wire Line
+	4550 1850 4950 1850
+Wire Wire Line
+	4550 1750 5050 1750
+Wire Wire Line
+	4550 1350 5450 1350
+Wire Wire Line
+	6150 2500 6950 2500
+Wire Wire Line
+	6150 2600 6850 2600
+Wire Wire Line
+	6150 2700 6750 2700
+Wire Wire Line
+	6650 2800 6150 2800
+Wire Wire Line
+	6150 2900 6550 2900
+Wire Wire Line
+	6450 3000 6150 3000
+Wire Wire Line
+	6150 3100 6350 3100
+Wire Wire Line
+	6250 3200 6150 3200
+Wire Wire Line
+	4750 2500 5550 2500
+Wire Wire Line
+	4850 2600 5550 2600
+Wire Wire Line
+	4950 2700 5550 2700
+Wire Wire Line
+	5050 2800 5550 2800
+Wire Wire Line
+	5150 2900 5550 2900
+Wire Wire Line
+	5250 3000 5550 3000
+Wire Wire Line
+	5350 3100 5550 3100
+Wire Wire Line
+	5450 3200 5550 3200
+$Comp
+L qboards-ic:IC-16 U2
+U 1 1 5DA28B75
+P 5850 2400
+F 0 "U2" H 5850 2525 50  0000 C CNN
+F 1 "IC-16" H 5850 2434 50  0000 C CNN
+F 2 "qboards_ic:SSOP-16" H 5850 2400 50  0001 C CNN
+F 3 "" H 5850 2400 50  0001 C CNN
+	1    5850 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 1650 5150 1650
+Wire Wire Line
+	4550 1550 5250 1550
+Wire Wire Line
+	4550 1450 5350 1450
+Wire Wire Line
+	6150 2050 6950 2050
+Wire Wire Line
+	6950 2500 6950 2050
+Connection ~ 6950 2050
+Wire Wire Line
+	6950 2050 7150 2050
+Wire Wire Line
+	6850 2600 6850 1950
+Connection ~ 6850 1950
+Wire Wire Line
+	6850 1950 7150 1950
+Wire Wire Line
+	6750 2700 6750 1850
+Connection ~ 6750 1850
+Wire Wire Line
+	6750 1850 7150 1850
+Wire Wire Line
+	6650 1750 6650 2800
+Connection ~ 6650 1750
+Wire Wire Line
+	6650 1750 7150 1750
+Wire Wire Line
+	6550 2900 6550 1650
+Connection ~ 6550 1650
+Wire Wire Line
+	6550 1650 7150 1650
+Wire Wire Line
+	6450 3000 6450 1550
+Connection ~ 6450 1550
+Wire Wire Line
+	6450 1550 7150 1550
+Wire Wire Line
+	6350 3100 6350 1450
+Connection ~ 6350 1450
+Wire Wire Line
+	6350 1450 7150 1450
+Wire Wire Line
+	6250 3200 6250 1350
+Connection ~ 6250 1350
+Wire Wire Line
+	6250 1350 7150 1350
+Wire Wire Line
+	4750 2500 4750 2050
+Connection ~ 4750 2050
+Wire Wire Line
+	4750 2050 5550 2050
+Wire Wire Line
+	4850 2600 4850 1950
+Connection ~ 4850 1950
+Wire Wire Line
+	4850 1950 5550 1950
+Wire Wire Line
+	4950 2700 4950 1850
+Connection ~ 4950 1850
+Wire Wire Line
+	4950 1850 5550 1850
+Wire Wire Line
+	5050 2800 5050 1750
+Connection ~ 5050 1750
+Wire Wire Line
+	5050 1750 5550 1750
+Wire Wire Line
+	5150 2900 5150 1650
+Connection ~ 5150 1650
+Wire Wire Line
+	5150 1650 5550 1650
+Wire Wire Line
+	5250 3000 5250 1550
+Connection ~ 5250 1550
+Wire Wire Line
+	5250 1550 5550 1550
+Wire Wire Line
+	5350 3100 5350 1450
+Connection ~ 5350 1450
+Wire Wire Line
+	5350 1450 5550 1450
+Wire Wire Line
+	5450 3200 5450 1350
+Connection ~ 5450 1350
+Wire Wire Line
+	5450 1350 5550 1350
 $EndSCHEMATC

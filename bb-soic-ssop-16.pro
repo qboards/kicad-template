@@ -1,4 +1,4 @@
-update=10-06-19 16:28:24
+update=13-10-19 14:37:15
 version=1
 last_client=kicad
 [general]
@@ -15,7 +15,7 @@ LibDir=
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=
+LastNetListRead=bb-soic-ssop-16.net
 CopperLayerCount=2
 BoardThickness=1.2
 AllowMicroVias=0
@@ -28,7 +28,7 @@ MinViaDrill=0.3048
 MinMicroViaDiameter=0.2
 MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.254
-TrackWidth1=0.2032
+TrackWidth1=0.3048
 ViaDiameter1=0.8
 ViaDrill1=0.4
 dPairWidth1=0.2
@@ -228,7 +228,7 @@ Enabled=0
 [pcbnew/Netclasses/Default]
 Name=Default
 Clearance=0.2032
-TrackWidth=0.2032
+TrackWidth=0.3048
 ViaDiameter=0.8
 ViaDrill=0.4
 uViaDiameter=0.3

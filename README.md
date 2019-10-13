@@ -1,12 +1,17 @@
-# QBoard Kicad Template
+# QBoard BB-SOIC-SSOP-16
 
-This is the default starting point for creating a QBoard with Kicad. The rest of this document is 
-also a template for the readme of a new QBoard, which can be copied and the placeholders replaced
-with actual content.
+Breakout board for SOIC/SSOP packages up to 16 pins. Uses extra long and wide pads so
+a lot of different packages should fit
 
-# QBoard [BRD_REF]
+Package properties:
 
-*Short description of the boards use*
+|             |  SOIC  |   SSOP  |
+|:-----------:|:------:|:-------:|
+| Pad count   | 16     | 16      |
+| Pad pitch   | 1.27mm | 0.635mm |
+| Pad width   | 0.8mm  | 0.4mm   |
+| Pad length  | 4.2mm  | 4.2mm   |
+| Row spacing | 5.2mm  | 5.2mm   |
 
 # Downloads
 
